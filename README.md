@@ -7,11 +7,11 @@ This project employs Principal Component Analysis (PCA) to find the key factors 
 To set up the project environment, follow these steps:
 1. Clone this repository.
 2. Install the dependencies with `pip install -r requirements.txt`.
-3. Run the analysis using `python miami_housing_pca.py`
+3. Run the analysis using `python miami_housing_pca.py`.
 
 
 ## Data Preprocessing
-The dataset contains various features of the Miami housing market, including property identifiers, sale prices, areas, and distances from significant locations. Our analysis focuses on the following columns: SALE_PRC, LND_SQFOOT, TOT_LVG_AREA, SPEC_FEAT_VAL, WATER_DIST, CNTR_DIST, and age. We have preprocessed the data by selecting these columns, scaling them, and then fitting PCA.
+The dataset contains various features of the Miami housing market, including property ID, sale price, area, and distances from significant locations (water, city center). Our analysis focuses on the following columns: SALE_PRC, LND_SQFOOT, TOT_LVG_AREA, SPEC_FEAT_VAL, WATER_DIST, CNTR_DIST, and age. We have preprocessed the data by selecting these columns, scaling them, and then fitting PCA.
 
 ## Analysis
 ### Correlation Heatmap
